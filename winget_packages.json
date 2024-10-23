@@ -1,0 +1,162 @@
+[
+    {
+        "Name":  "Mozilla Firefox",
+        "Id":  "Mozilla.Firefox",
+		"Category": "Browser"
+    },
+    {
+        "Name":  "Mozilla Firefox ESR",
+        "Id":  "Mozilla.Firefox.ESR",
+		"Category": "Browser"
+    },
+	{
+        "Name":  "Google Chrome",
+        "Id":  "Google.Chrome",
+		"Category": "Browser"
+    },
+	{
+        "Name":  "Chromium",
+        "Id":  "Hibbiki.Chromium",
+		"Category": "Browser"
+    },
+	{
+        "Name":  "Brave",
+        "Id":  "Brave.Brave",
+		"Category": "Browser"
+    },
+	{
+        "Name":  "Vivaldi",
+        "Id":  "Vivaldi.Vivaldi",
+		"Category": "Browser"
+    },
+	{
+        "Name":  "Opera",
+        "Id":  "Opera.Opera",
+		"Category": "Browser"
+    },
+	{
+        "Name":  "Notepad++",
+        "Id":  "Notepad++.Notepad++",
+		"Category": "Editor"
+    },
+	{
+        "Name":  "Visual Studio Code",
+        "Id":  "Microsoft.VisualStudioCode",
+		"Category": "Editor"
+    },
+	{
+        "Name":  "VS Codium",
+        "Id":  "VSCodium.VSCodium",
+		"Category": "Editor"
+    },
+	{
+        "Name":  "Sublime 4",
+        "Id":  "SublimeHQ.SublimeText.4",
+		"Category": "Editor"
+    },
+	{
+        "Name":  "KeePass",
+        "Id":  "DominikReichl.KeePass",
+		"Category": "Password manager"
+    },
+	{
+        "Name":  "KeePassXC",
+        "Id":  "KeePassXCTeam.KeePassXC",
+		"Category": "Password manager"
+    },
+	{
+        "Name":  "KeeWeb",
+        "Id":  "KeeWeb.KeeWeb",
+		"Category": "Password manager"
+    },
+	{
+        "Name":  "Bitwarden",
+        "Id":  "Bitwarden.Bitwarden",
+		"Category": "Password manager"
+    },
+	{
+        "Name":  "Bitwarden CLI",
+        "Id":  "Bitwarden.CLI",
+		"Category": "Password manager"
+    },
+	{
+        "Name":  "Spotify",
+        "Id":  "Spotify.Spotify",
+		"Category": "Audio"
+    },
+	{
+        "Name":  "Audacity",
+        "Id":  "Audacity.Audacity",
+		"Category": "Audio"
+    },
+	{
+        "Name":  "VLC Media player",
+        "Id":  "VideoLAN.VLC",
+		"Category": "Audio"
+    },
+	{
+        "Name":  "JetBrains Toolbox",
+        "Id":  "JetBrains.Toolbox",
+		"Category": "Development"
+    },
+	{
+        "Name":  "IntelliJ IDEA Community Edition",
+        "Id":  "JetBrains.IntelliJIDEA.Community",
+		"Category": "Development"
+    },
+	{
+        "Name":  "IntelliJ IDEA Ultimate",
+        "Id":  "JetBrains.IntelliJIDEA.Ultimate",
+		"Category": "Development"
+    },
+	{
+        "Name":  "Steam",
+        "Id":  "Valve.Steam",
+		"Category": "Gaming"
+    },
+	{
+        "Name":  "GOG",
+        "Id":  "GOG.Galaxy",
+		"Category": "Gaming"
+    },
+	{
+        "Name":  "Prism Launcher",
+        "Id":  "PrismLauncher.PrismLauncher",
+		"Category": "Gaming"
+    },
+	{
+        "Name":  "Discord",
+        "Id":  "Discord.Discord",
+		"Category": "Gaming"
+    },
+	{
+        "Name":  "TeamSpeak 3 Client",
+        "Id":  "TeamSpeakSystems.TeamSpeakClient",
+		"Category": "Gaming"
+    },
+	{
+        "Name":  "Power Toys",
+        "Id":  "Microsoft.PowerToys",
+		"Category": "Tools"
+    },
+	{
+        "Name":  "Everything",
+        "Id":  "voidtools.Everything",
+		"Category": "Tools"
+    },
+	{
+        "Name":  "WizTree",
+        "Id":  "AntibodySoftware.WizTree",
+		"Category": "Tools"
+    },
+	{
+        "Name":  "Obsidian",
+        "Id":  "Obsidian.Obsidian",
+		"Category": "Tools"
+    },
+	{
+        "Name":  "Joplin",
+        "Id":  "Joplin.Joplin",
+		"Category": "Tools"
+    }
+]
