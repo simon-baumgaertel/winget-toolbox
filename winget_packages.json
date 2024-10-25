@@ -4,11 +4,6 @@
         "Id":  "Mozilla.Firefox",
 		"Category": "Browser"
     },
-    {
-        "Name":  "Mozilla Firefox ESR",
-        "Id":  "Mozilla.Firefox.ESR",
-		"Category": "Browser"
-    },
 	{
         "Name":  "Google Chrome",
         "Id":  "Google.Chrome",
@@ -27,11 +22,6 @@
 	{
         "Name":  "Vivaldi",
         "Id":  "Vivaldi.Vivaldi",
-		"Category": "Browser"
-    },
-	{
-        "Name":  "Opera",
-        "Id":  "Opera.Opera",
 		"Category": "Browser"
     },
 	{
@@ -82,17 +72,32 @@
 	{
         "Name":  "Spotify",
         "Id":  "Spotify.Spotify",
-		"Category": "Audio"
+		"Category": "Media"
     },
 	{
         "Name":  "Audacity",
         "Id":  "Audacity.Audacity",
-		"Category": "Audio"
+		"Category": "Media"
     },
 	{
         "Name":  "VLC Media player",
         "Id":  "VideoLAN.VLC",
-		"Category": "Audio"
+		"Category": "Media"
+    },
+    {
+        "Name":  "Foobar 2000",
+        "Id":  "PeterPawlowski.foobar2000",
+		"Category": "Media"
+    },
+    {
+        "Name":  "Winamp",
+        "Id":  "Winamp.Winamp",
+		"Category": "Media"
+    },
+    {
+        "Name":  "MusicBee",
+        "Id":  "MusicBee.MusicBee",
+		"Category": "Media"
     },
 	{
         "Name":  "JetBrains Toolbox",
@@ -115,6 +120,11 @@
 		"Category": "Development"
     },
     {
+        "Name":  "Python 3.13",
+        "Id":  "Python.Python.3.13",
+		"Category": "Development"
+    },
+    {
         "Name":  "PowerShell 7",
         "Id":  "Microsoft.PowerShell",
 		"Category": "Development"
@@ -122,6 +132,11 @@
     {
         "Name":  "Github Desktop",
         "Id":  "GitHub.GitHubDesktop",
+		"Category": "Development"
+    },
+    {
+        "Name":  "Bruno - API Client",
+        "Id":  "Bruno.Bruno",
 		"Category": "Development"
     },
     {
@@ -134,30 +149,35 @@
         "Id":  "Microsoft.WindowsTerminal",
 		"Category": "Development"
     },
-	{
-        "Name":  "Steam",
-        "Id":  "Valve.Steam",
-		"Category": "Gaming"
+    {
+        "Name":  "Krita",
+        "Id":  "KDE.Krita",
+		"Category": "Imgaging"
     },
-	{
-        "Name":  "GOG",
-        "Id":  "GOG.Galaxy",
-		"Category": "Gaming"
+    {
+        "Name":  "GIMP",
+        "Id":  "GIMP.GIMP",
+		"Category": "Imgaging"
     },
-	{
-        "Name":  "Prism Launcher",
-        "Id":  "PrismLauncher.PrismLauncher",
-		"Category": "Gaming"
+    {
+        "Name":  "Blender",
+        "Id":  "BlenderFoundation.Blender",
+		"Category": "Imgaging"
     },
-	{
-        "Name":  "Discord",
-        "Id":  "Discord.Discord",
-		"Category": "Gaming"
+    {
+        "Name":  "Paint.NET",
+        "Id":  "dotPDNLLC.paintdotnet",
+		"Category": "Imgaging"
     },
-	{
-        "Name":  "TeamSpeak 3 Client",
-        "Id":  "TeamSpeakSystems.TeamSpeakClient",
-		"Category": "Gaming"
+    {
+        "Name":  "IrfanView",
+        "Id":  "IrfanSkiljan.IrfanView",
+		"Category": "Imgaging"
+    },
+    {
+        "Name":  "Inkscape",
+        "Id":  "Inkscape.Inkscape",
+		"Category": "Imgaging"
     },
 	{
         "Name":  "Power Toys",
@@ -198,5 +218,80 @@
         "Name":  "WinSCP",
         "Id":  "WinSCP.WinSCP",
 		"Category": "Tools"
+    },
+    {
+        "Name":  "WinMerge",
+        "Id":  "WinMerge.WinMerge",
+		"Category": "Tools"
+    },
+    {
+        "Name":  "HWiNFO",
+        "Id":  "REALiX.HWiNFO",
+		"Category": "Tools"
+    },
+    {
+        "Name":  "SumatraPDF",
+        "Id":  "SumatraPDF.SumatraPDF",
+		"Category": "Tools"
+    },
+    {
+        "Name":  "Steam",
+        "Id":  "Valve.Steam",
+		"Category": "Gaming"
+    },
+	{
+        "Name":  "GOG",
+        "Id":  "GOG.Galaxy",
+		"Category": "Gaming"
+    },    
+    {
+        "Name":  "BattleNet",
+        "Id":  "Blizzard.BattleNet",
+		"Category": "Gaming"
+    },
+    {
+        "Name":  "Epic Games Launcher",
+        "Id":  "EpicGames.EpicGamesLauncher",
+		"Category": "Gaming"
+    },
+    {
+        "Name":  "Electronic Arts Desktop",
+        "Id":  "ElectronicArts.EADesktop",
+		"Category": "Gaming"
+    },
+    {
+        "Name":  "League of Legends (EUW)",
+        "Id":  "RiotGames.LeagueOfLegends.EUW",
+		"Category": "Gaming"
+    },
+    {
+        "Name":  "VALORANT (EU)",
+        "Id":  "RiotGames.Valorant.EU",
+		"Category": "Gaming"
+    },
+	{
+        "Name":  "Prism Launcher",
+        "Id":  "PrismLauncher.PrismLauncher",
+		"Category": "Gaming"
+    },
+	{
+        "Name":  "Discord",
+        "Id":  "Discord.Discord",
+		"Category": "Gaming"
+    },
+	{
+        "Name":  "TeamSpeak 3 Client",
+        "Id":  "TeamSpeakSystems.TeamSpeakClient",
+		"Category": "Gaming"
+    },
+    {
+        "Name":  "AMD Software",
+        "Id":  "AMD.AMDSoftwareCloudEdition",
+		"Category": "Driver"
+    },
+    {
+        "Name":  "NVIDIA GeForce Experience",
+        "Id":  "Nvidia.GeForceExperience",
+		"Category": "Driver"
     }
 ]

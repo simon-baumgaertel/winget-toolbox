@@ -19,11 +19,11 @@ This project is a work-in-progress PowerShell helper script designed to simplify
             "Id":  "Publisher.Software",
             "Category": "Category"
         }
-    }
+    ]
    ```
 
-3. Run the script in PowerShell (depending on your version used)
-    * PowerShell 7+: `./Setup-WinGet.ps1`
+3. Run the script in an *elevated* PowerShell (depending on your version used)
+    * PowerShell 7+: `.\Setup-WinGet.ps1`
     * PowerShell <= 5: `powershell -ExecutionPolicy Bypass -File .\Setup-WinGet.ps1` 
 
 

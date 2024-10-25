@@ -14,7 +14,7 @@ $selected_packages = @()
 
 $packages = [PSCustomObject](Get-Content "$PSScriptRoot/winget_packages.json" | ConvertFrom-Json)
 
-$selected_packages = $packages | Out-GridView -Title "Select your desired packages to install..." -PassThru
+$selected_packages = $packages | Sort-Object -Property Category,Name  | Out-GridView -Title "Select your desired packages to install..." -PassThru
 
 Write-Output "[i] Selected $($selected_packages.Count) to install"
 
@@ -30,16 +30,21 @@ if($selected_packages){
     
 }
 
-$title    = 'Enable auto-updates'
-$question = 'Do you want to enable auto-updates on system start up (Creates a scheduled task)?'
-$choices  = '&Yes', '&No'
+$scheduled_task = Get-ScheduledTask | Where-Object {($_.TaskPath -like "\winget-toolbox\") -and ($_.TaskName -like "WinGet Auto-updates")}
 
-$decision = $Host.UI.PromptForChoice($title, $question, $choices, 1)
-if ($decision -eq 0) {
-    $trigger = New-ScheduledTaskTrigger -AtLogOn
-    $action = New-ScheduledTaskAction -Execute "PowerShell" -Argument "winget upgrade --all --silent --accept-package-agreements --accept-source-agreements"
-    Register-ScheduledTask -TaskName "WinGet Auto-updates" -TaskPath "winget-toolbox" -Action $action -Trigger $trigger | Out-Null
-    Write-Output "[+] Created a scheduled task to enable auto updates via winget on system start up"
-} else {
-    Write-Output "[i] Auto-updates not enabled."
+if(!($scheduled_task)){
+    $title    = 'Enable auto-updates'
+    $question = 'Do you want to enable auto-updates on system start up (Creates a scheduled task)?'
+    $choices  = '&Yes', '&No'
+    $decision = $Host.UI.PromptForChoice($title, $question, $choices, 1)
+    
+    if ($decision -eq 0) {
+        $trigger = New-ScheduledTaskTrigger -AtLogOn
+        $action = New-ScheduledTaskAction -Execute "PowerShell" -Argument "winget upgrade --all --silent --accept-package-agreements --accept-source-agreements"
+        Register-ScheduledTask -TaskName "WinGet Auto-updates" -TaskPath "winget-toolbox" -Action $action -Trigger $trigger | Out-Null
+        Write-Output "[+] Created a scheduled task to enable auto updates via winget on system start up"
+    } else {
+        Write-Output "[i] Auto-updates not enabled."
+    }
 }
+
