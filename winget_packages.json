@@ -110,6 +110,31 @@
 		"Category": "Development"
     },
 	{
+        "Name":  "Microsoft OpenJDK 21",
+        "Id":  "Microsoft.OpenJDK.21",
+		"Category": "Development"
+    },
+    {
+        "Name":  "PowerShell 7",
+        "Id":  "Microsoft.PowerShell",
+		"Category": "Development"
+    },
+    {
+        "Name":  "Github Desktop",
+        "Id":  "GitHub.GitHubDesktop",
+		"Category": "Development"
+    },
+    {
+        "Name":  "PowerShell 7",
+        "Id":  "Microsoft.PowerShell",
+		"Category": "Development"
+    },
+    {
+        "Name":  "Windows Terminal",
+        "Id":  "Microsoft.WindowsTerminal",
+		"Category": "Development"
+    },
+	{
         "Name":  "Steam",
         "Id":  "Valve.Steam",
 		"Category": "Gaming"
@@ -139,6 +164,11 @@
         "Id":  "Microsoft.PowerToys",
 		"Category": "Tools"
     },
+    {
+        "Name":  "7-Zip",
+        "Id":  "7zip.7zip",
+		"Category": "Tools"
+    },
 	{
         "Name":  "Everything",
         "Id":  "voidtools.Everything",
@@ -157,6 +187,16 @@
 	{
         "Name":  "Joplin",
         "Id":  "Joplin.Joplin",
+		"Category": "Tools"
+    },
+    {
+        "Name":  "Raspberry Pi Imager",
+        "Id":  "RaspberryPiFoundation.RaspberryPiImager",
+		"Category": "Tools"
+    },
+    {
+        "Name":  "WinSCP",
+        "Id":  "WinSCP.WinSCP",
 		"Category": "Tools"
     }
 ]
